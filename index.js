@@ -1,5 +1,5 @@
-function hello(name) {
-    console.log(name);
+function hello(name = ' ') {
+    console.log('Hello', name);
 }
 
 module.exports = {hello};
